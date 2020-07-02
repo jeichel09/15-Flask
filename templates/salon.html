@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="../static/css/salon-styles.css">
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		<title>Hair-Salon Hans</title>
+	</head>
+	<body>
+		<!-- *** Top Navigation bar *** -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+			  <a class="navbar-brand" href="#">Hairdresser Hans</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+			    <ul class="navbar-nav ml-auto">
+			      <li class="nav-item">
+			        <a class="nav-link" href="#ourServices">Our services</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#makeAppointment">Make an appointment</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#fAQs">FAQs</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#aboutUs">About us</a>
+			      </li>
+			    </ul>
+			    <form class="form-inline my-2 my-lg-0">
+			      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+			      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			    </form>
+			  </div>
+		</nav>
+
+		<!-- *** Caroussel *** -->
+		<div class="bc-carou container-fluid">
+			<div id="carouselExampleControls" class="carousel slide min-carou" data-ride="carousel">
+			  <div class="carousel-inner">
+			    <div class="carousel-item active img-fluid">
+			      <img src="../static/img/pic1.jpg" class="d-block w-100 carou-pic" alt="...">
+			    </div>
+			    <div class="carousel-item img-fluid">
+			      <img src="../static/img/pic2.jpg" class="d-block w-100 carou-pic" alt="...">
+			    </div>
+			    <div class="carousel-item img-fluid">
+			      <img src="../static/img/pic3.jpg" class="d-block w-100 carou-pic" alt="...">
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only c-arrow">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only c-arrow">Next</span>
+			  </a>
+			</div>
+		</div>
+
+		<!-- *** Our Services Section *** -->
+		<div id="ourServices" class="container-fluid padding our-services">
+			<div class="row text-center">
+				<div class="col-12 padt-80">
+					<h1 class="display-4">Our Services</h1>
+				</div>
+				<hr>
+			</div>
+		</div>
+		<div class="container-fluid padding padb-100">
+			<div class="row text-center padding">
+				<div class="col-12-xs col-sm-6 col-md-4">
+					<div class="fancy-box">
+						<div class="upper-box">
+							<h3>Styling</h3>
+							<img class="mini-icon" src="../static/img/head-silhouette-with-short-hair.png">
+						</div>	
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ipsum purus, accumsan eu porta nec, lacinia at libero. Nulla rhoncus laoreet pulvinar. Vivamus vitae vehicula diam, aliquet egestas tellus. Sed in imperdiet felis.</p>
+					</div>	
+				</div>
+				<div class="col-12-xs col-sm-6 col-md-4">
+					<div class="fancy-box">
+						<div class="upper-box">
+							<h3>Coloring</h3>
+							<img class="mini-icon" src="../static/img/hair-salon-spray-bottle-and-can.png">
+						</div>	
+						<p>Donec justo augue, elementum non facilisis vitae, pretium quis est. Mauris et turpis dignissim, dapibus sem eu, pharetra mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+					</div>	
+				</div>
+				<div class="col-12-xs col-sm-6 col-md-4">
+					<div class="fancy-box">
+						<div class="upper-box">
+							<h3>Haircuts</h3>
+							<img class="mini-icon" src="../static/img/scissors-and-comb-1.png">
+						</div>
+						<p>Aenean vel condimentum sapien. Etiam eleifend mi at sem hendrerit, ac luctus nulla elementum. Morbi feugiat eros dolor, eget viverra est gravida laoreet.</p>
+					</div>	
+				</div>
+			</div>
+		</div>
+
+		<!-- *** Make an appointment section -->
+		<div id="makeAppointment" class="container-fluid padding make-appointment">
+			<div class="row text-center">
+				<div class="col-12 padt-80">
+					<h1 class="display-4">Make an appointment</h1>
+				</div>
+				<hr>
+			</div>
+		</div>
+		<div class="container-fluid padding form-table">
+			<div class="row padding padb-100">
+				<div class="col-lg-6">
+					<div class="user-form">
+						<form>
+						  <div class="form-group">
+						    <label for="names">First and last names</label>
+						    <input type="text" class="form-control">
+						  </div>
+						  <div class="form-group">
+						    <label for="phone">Phone number</label>
+						    <input type="number" class="form-control">
+						  </div>
+						  <div class="form-group">
+						    <label for="date">Date</label>
+						    <input type="date" class="form-control">
+						  </div>
+						  <div class="form-group">
+						    <label for="otherWishes">Other info</label>
+						    <textarea class="form-control" rows="3"></textarea>
+						  </div>
+						  <div class="form-group form-check">
+						    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+						    <label class="form-check-label" for="exampleCheck1">I agree that Hans is the best friseur</label>
+						  </div>
+						  <button type="submit" class="btn btn-primary">Send</button>
+						</form>
+					</div>	
+				</div>
+				<div class="col-lg-6">
+					<div class="time-table">
+						<table class="table table-bordered table-dark">
+						  <thead>
+						    <tr>
+						      <th scope="col">Day</th>
+						      <th scope="col">Working hours</th>
+						    </tr>
+						  </thead>
+						  <tbody>
+						    <tr>
+						      <th scope="row">Monday</th>
+						      <td>08:00 - 16:00</td>
+						    </tr>
+						    <tr>
+						      <th scope="row">Tuesday</th>
+						      <td>10:00 - 18:00</td>
+						    </tr>
+						    <tr>
+						      <th scope="row">Wednsday</th>
+						      <td>08:00 - 16:00</td>
+						    </tr>
+						    <tr>
+						      <th scope="row">Thursday</th>
+						      <td>08:00 - 16:00</td>
+						    </tr>
+						    <tr>
+						      <th scope="row">Friday</th>
+						      <td>12:00 - 20:00</td>
+						    </tr>
+						    <tr>
+						      <th scope="row">Saturday</th>
+						      <td>08:00 - 16:00</td>
+						    </tr>
+						    <tr>
+						      <th scope="row">Sunday</th>
+						      <td>08:00 - 12:00</td>
+						    </tr>
+						  </tbody>
+						</table>
+					</div>	                    
+				</div>
+			</div>
+		</div>
+
+		<!-- *** FAQs section -->
+		<div id="fAQs" class="container-fluid padding faq">
+			<div class="row text-center">
+				<div class="col-12 padt-80 padb-100">
+					<h1 class="display-4">FAQs (frequently asked questions)</h1>
+				</div>
+				<hr>
+			</div>
+		</div>
+		<div class="container padb-100">
+			<div class="row">
+				<div class="accordion" id="accordionExample">
+				  <div class="card">
+				    <div class="card-header" id="headingOne">
+				      <h2 class="mb-0">
+				        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+				          Do you have gift certificates?
+				        </button>
+				      </h2>
+				    </div>
+
+				    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+				      <div class="card-body">
+				        YES. We offer gift certificates for 25€, 50€, 100€ or for an ammount defined by the customer (must be at least 15€).
+				      </div>
+				    </div>
+				  </div>
+				  <div class="card">
+				    <div class="card-header" id="headingTwo">
+				      <h2 class="mb-0">
+				        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				          Can I bring my pet along?
+				        </button>
+				      </h2>
+				    </div>
+				    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+				      <div class="card-body">
+				        We are extremely pet friendly and have a special room for our four-leged friends, where they can rest or play until we finish your great new look.
+				      </div>
+				    </div>
+				  </div>
+				  <div class="card">
+				    <div class="card-header" id="headingThree">
+				      <h2 class="mb-0">
+				        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				          What awards did you receive so far?
+				        </button>
+				      </h2>
+				    </div>
+				    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+				      <div class="card-body">
+				        Most recently, we won the 2019 "Best provincial cuts"- award. Before that we have won numerous times the "Crazy cuts"-award (2012,2014,2016, 2017)
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+
+		<!-- *** About us section *** -->
+		<div id="aboutUs" class="container-fluid padding about-us">
+			<div class="row text-center padding">
+				<div class="col-12-xs col-sm-6 col-md-4">
+					<div class="address-box">
+						<h4>Contact</h4>
+						<address>
+							Friseur Hans GmbH <br>
+							UID Nr. : 223746643 <br>
+							Friseurgasse 5, 1040 Wien <br>
+							Phone: 0660/3851203 <br>
+                            E-mail: <a href="mailto:friseur.hans@f-hans.com">friseur.hans@f-hans.com</a>.<br>
+						</address>
+					</div>
+				</div>
+				<div class="col-12-xs col-sm-6 col-md-4">
+					<div class="footer-logo">
+						<img src="../static/img/hair-salon-commercial-signal.png" class="footer-pic">
+					</div>
+				</div>
+				<div class="col-12-xs col-sm-6 col-md-4">
+					<div class="foot-nav">
+						<h4>Navigation</h4>
+						<ul class="nav flex-column">
+							  <li class="nav-item">
+							    <a class="nav-link" href="#ourServices">Our services</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#makeAppointment">Make an appointment</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" href="#fAQs">FAQs</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link active" href="#aboutUs">About us</a>
+							  </li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>			
+	</body>
+</html>
+

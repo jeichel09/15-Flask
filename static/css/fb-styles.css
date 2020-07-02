@@ -1,0 +1,78 @@
+/* Allgemeine Einstellungen
+   -------------------------*/
+
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: Tahoma;
+}
+
+html, body, .main, .col {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+/* Hintergründe
+   -------------*/
+
+.header, .follow { background-color: #FF5657; }
+.profil { background: linear-gradient(#EFEFF1,#242526); }
+.info2 { background-color: #222222; }
+.überschrifte { background: #242526; }
+
+/* Header, Überschrifte, Footer
+   -----------------------------*/
+
+.header {
+	display: block;
+    width:100%;
+	float:left;
+}
+
+.header, .profil, .überschrifte, .prof_pic {
+	text-align: center;
+}
+
+.überschrifte { 
+	padding: 35px 15px;
+    color: #FCFCFC;
+}
+
+.überschrifte h3 {
+	padding-top: 120px;
+}
+
+.profil {
+  display: flex;
+}
+
+.info, .info2, .prof_pic {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.info p, .info2 p, .follow {
+	color: #FCFCFC;
+  font-size: 20px;
+}
+
+/* Spalten Layout
+   ---------------*/
+
+.info, .info2, .prof_pic { width: 30%; } 
+
+.ich_pic, .info2 {
+	  border-radius: 25px;
+	  width: 500px;
+    height: 500px;
+    padding: 5px;
+}
+
+.info2 {
+    margin-top: 35px;
+}
+
